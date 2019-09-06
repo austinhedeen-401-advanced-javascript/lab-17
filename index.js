@@ -9,7 +9,7 @@ switch (process.argv[2]) {
     server();
     break;
   case 'logger':
-    logger();
+    logger.start();
     break;
   case 'app':
     app();
