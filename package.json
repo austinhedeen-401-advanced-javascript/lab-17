@@ -2,9 +2,12 @@
   "name": "lab-17",
   "version": "1.0.0",
   "description": "Socket.IO",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node index.js server 3000",
+    "logger": "node index.js logger",
+    "app": "node index.js app files/test.txt",
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
